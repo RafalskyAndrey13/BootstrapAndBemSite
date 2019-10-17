@@ -53,7 +53,7 @@
         <section class='about'>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-8">
+                    <div class="col-xl-8 section-header">
                         <h2 class='about__title'>About Us</h2>
                         <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -84,7 +84,7 @@
         <section class="services">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-8">
+                    <div class="col-xl-8 section-header">
                         <h2 class='about__title'>Our Services</h2>
                         <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-xl-4">
                         <article class='services-card'>
-                            <i class="fas fa-mobile-alt icon"></i>
+                            <i class="far fa-address-book icon"></i>
                             <h3 class="about__item-title">Portfolio</h3>
                             <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                 eiusmod tempor</p>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="col-xl-4">
                         <article class='services-card'>
-                            <i class="fas fa-mobile-alt icon"></i>
+                            <i class="far fa-question-circle icon"></i>
                             <h3 class="about__item-title">Support</h3>
                             <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                 eiusmod tempor</p>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="col-xl-4">
                         <article class='services-card'>
-                            <i class="fas fa-mobile-alt icon"></i>
+                            <i class="fas fa-file icon"></i>
                             <h3 class="about__item-title">Documentation</h3>
                             <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                 eiusmod tempor</p>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="col-xl-4">
                         <article class='services-card'>
-                            <i class="fas fa-mobile-alt icon"></i>
+                            <i class="far fa-window-restore icon"></i>
                             <h3 class="about__item-title">Development</h3>
                             <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                 eiusmod tempor</p>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-xl-4">
                         <article class='services-card'>
-                            <i class="fas fa-mobile-alt icon"></i>
+                            <i class="fas fa-drafting-compass icon"></i>
                             <h3 class="about__item-title">Design</h3>
                             <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                                 eiusmod tempor</p>
@@ -148,7 +148,78 @@
                 </div>
             </div>
         </section>
+        <section class="portfolio">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="section-header">
+                            <h2 class='about__title'>Our Services</h2>
+                            <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        </div>
+                        <div class='filter-buttons'>
+                            <button class='button button_empty active' data-filter='all'>All</button>
+                            <button class='button button_empty' data-filter='wd'>Web Design</button>
+                            <button class='button button_empty' data-filter='ud'>UI/UX design</button>
+                            <button class='button button_empty' data-filter='mock'>Mockups</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row filter justify-content-center">
+                    <div class="col-xl-4" data-filter='ud'>
+                        <img src="img/item1.png" alt="">
+                        <div class='text'>
+                            <h3 class="about__item-title">Hand Watch</h3>
+                            <p class='about__text'>Web design</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4" data-filter='mock'>
+                        <img src="img/item2.png" alt="">
+                        <div class='text'>
+                            <h3 class="about__item-title">Hand Watch</h3>
+                            <p class='about__text'>Mockups</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4" data-filter='wd'>
+                        <img src="img/item3.png" alt="">
+                        <div class='text'>
+                            <h3 class="about__item-title">Hand Watch</h3>
+                            <p class='about__text'>Web design</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4" data-filter='ud'>
+                        <img src="img/item4.png" alt="">
+                        <div class='text'>
+                            <h3 class="about__item-title">Hand Watch</h3>
+                            <p class='about__text'>UI design</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4" data-filter='mock'>
+                        <img src="img/item5.png" alt="">
+                        <div class='text'>
+                            <h3 class="about__item-title">Hand Watch</h3>
+                            <p class='about__text'>Mockups</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4" data-filter='wd'>
+                        <img src="img/item6.png" alt="">
+                        <div class='text'>
+                            <h3 class="about__item-title">Hand Watch</h3>
+                            <p class='about__text'>Web design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <button class='button button_full'>View All</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='js/main.js'></script>
 </body>
 
 </html>

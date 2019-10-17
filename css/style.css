@@ -100,10 +100,6 @@ li.menu__item {
     padding-bottom: 125px;
 }
 
-.about .container .row:first-child{
-    margin-bottom: 125px;
-}
-
 .about__title {
     font-size: 30px;
     font-weight: bold;
@@ -169,4 +165,68 @@ li.menu__item {
 .services-card:hover .services-button{
     border-color: white;
     cursor: pointer;
+}
+
+.section-header {
+    margin-bottom: 125px;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 135px;
+    text-align: center;
+}
+
+.portfolio .button_empty {
+    color: black;
+    border: none;
+}
+
+.portfolio .button_empty:hover{
+    background: #00897b;
+    color: white;
+}
+
+.filter div {
+    padding-bottom: 30px;
+    transition: transform 1s;
+}
+
+.filter div img {
+    transition: filter 1s;
+}
+
+.filter div:hover img{
+    filter: brightness(50%);
+}
+
+.filter .text p, 
+.filter .text h3 {
+    color: white;
+}
+
+.filter .text h3 {
+    margin-bottom: 0px;
+}
+
+.filter {
+    padding: 120px 0;
+}
+
+.filter .text {
+    display: none;
+    text-align: center;
+}
+
+.filter div:hover .text{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 0;
+}
+
+.button.active {
+    color: white;
+    background-color: #00897b;
 }
