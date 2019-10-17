@@ -95,7 +95,6 @@ li.menu__item {
 /* about */
 
 .about{
-    color: black;
     text-align: center;
     padding-top: 120px;
     padding-bottom: 125px;
@@ -119,4 +118,55 @@ li.menu__item {
     font-size: 20px;
     margin: 20px 0px 30px;
     font-family: 'Open Sans Semibold', 'Times New Roman', sans-serif;
+}
+
+.services{
+    text-align: center;
+    padding-top: 165px;
+    padding-bottom: 125px;
+    background-color: #baeee6;
+}
+
+.services-card {
+    background-color: white;
+    padding: 50px 25px 40px;
+    transition: all .5s;
+    margin-bottom: 30px;
+}
+
+.services-card .about__item-title,
+.services-card .about__text,
+.services-card .icon,
+.services-card .services-button{
+    transition: inherit;
+}
+
+.services-card .icon {
+    font-size: 60px;
+    color: black;
+}
+
+.services-button {
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 14px 12px;
+    font-family: 'Open Sans Semibold', sans-serif;
+}
+
+.services-card:hover {
+    background-color: #00897b;
+    box-shadow: 0 10px 12px -3px rgba(0, 0, 0, .25);
+}
+
+.services-card:hover .about__item-title,
+.services-card:hover .about__text,
+.services-card:hover .icon,
+.services-card:hover .services-button{
+    color: white;
+}
+
+.services-card:hover .services-button{
+    border-color: white;
+    cursor: pointer;
 }
