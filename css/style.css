@@ -230,3 +230,79 @@ li.menu__item {
     color: white;
     background-color: #00897b;
 }
+
+.pricing {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
+    background-color: #f0f1f1;
+}
+
+.price-block {
+    background-color: white;
+    transition: box-shadow .5s;
+}
+
+.price-block header {
+    background-image: url('../img/pricing_bg.png');
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 211px;
+    font-size: 50px;
+}
+
+.price-block header * {
+    color: white;
+}
+
+.price-block header h3 {
+    font-size: 25px;
+}
+
+.price-block header sup {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.price-block header sub {
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.price-block .options{
+    font-size: 17px;
+}
+
+.price-block .options ul {
+    list-style: none;
+    padding: 0;
+} 
+
+.price-block .options li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    max-width: 175px;
+    margin: 0 auto;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.price-block footer{
+    padding: 60px 0;
+}
+
+.price-block footer button{
+    color: black;
+    box-shadow: none;
+}
+
+.price-block footer button:hover{
+    cursor:pointer;
+    background-color: #00897b;
+    color: white;
+}
+
+.price-block:hover {
+    box-shadow: 2px 2px 15px 0 gray;
+}
