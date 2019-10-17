@@ -10,27 +10,70 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <header class="menu-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-2">
-                    <img src="img/logo.png" alg='My Landing' class='logo'>
+    <header>
+        <div class="menu-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2">
+                        <img src="img/logo.png" alg='My Landing' class='logo'>
+                    </div>
+                    <div class="col-xl-8 ml-auto align-self-center">
+                        <nav>
+                            <ul class="menu d-flex justify-content-end">
+                                <li class='menu__item'><a href="#">Home</a></li>
+                                <li class='menu__item'><a href="#">About</a></li>
+                                <li class='menu__item'><a href="#">Servicing</a></li>
+                                <li class='menu__item'><a href="#">Portfolio</a></li>
+                                <li class='menu__item'><a href="#">Blog</a></li>
+                                <li class='menu__item'><a href="#">Contact us</a></li>
+                                <li class='menu__item'><i class="fas fa-search"></i></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="col-xl-8 ml-auto align-self-center">
-                    <nav>
-                        <ul class="menu d-flex justify-content-end">
-                            <li class='menu__item'><a href="#">Home</a></li>
-                            <li class='menu__item'><a href="#">About</a></li>
-                            <li class='menu__item'><a href="#">Servicing</a></li>
-                            <li class='menu__item'><a href="#">Portfolio</a></li>
-                            <li class='menu__item'><a href="#">Blog</a></li>
-                            <li class='menu__item'><a href="#">Contact us</a></li>
-                            <li class='menu__item'><i class="fas fa-search"></i></li>
-                        </ul>
-                    </nav>
+            </div>
+        </div>
+        <div class="subheader">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h1 class='subheader__title'>Web development project</h1>
+                        <p class='subheader__text'>Very suitable to support all web development projects</p>
+                        <button class='button button_empty'>Our services</button>
+                        <button class='button button_full'>Hire is now</button>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+    <main>
+        <section class='about'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <h2 class='about__title'>About Us</h2>
+                        <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-xl-3">
+                        <img src="img/about2.png" alt="awesome icons">
+                        <h3 class="about__item-title">Awesome Icons</h3>
+                        <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <img src="img/about1.png" alt="one page">
+                        <h3 class="about__item-title">One Page</h3>
+                        <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="col-xl-3">
+                        <img src="img/about3.png" alt="fully responsive">
+                        <h3 class="about__item-title">Fully Responsive</h3>
+                        <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

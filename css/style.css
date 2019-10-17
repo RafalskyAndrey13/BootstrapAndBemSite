@@ -1,4 +1,9 @@
-@import 'fonts.css'
+@import 'fonts.css';
+
+* {
+    font-family: 'Open Sans Regular', 'Times New Roman', sans-serif;
+    color: #212121;
+}
 
 ul.menu, li.menu__item {
     display: block;
@@ -12,16 +17,15 @@ ul.menu, li.menu__item {
 
 .menu-bar {
     padding: 20px 0;
-    color: #212121;
     background-color: #fff;
 }
 
-.menu__item {
+li.menu__item {
     margin-left: 40px;
 }
 
 .menu__item a {
-    font-family: 'Open Sans Semibold';
+    font-family: 'Open Sans Semibold', 'Times New Roman', sans-serif;
     font-size: 18px;
     color: inherit;
 }
@@ -29,4 +33,90 @@ ul.menu, li.menu__item {
 .menu__item a:hover {
     text-decoration: none;
     color: #cecece;
+}
+
+.subheader{
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-position: 0 100%;
+    padding: 180px 0;
+    text-align: center;
+}
+
+.subheader h1, .subheader p{
+    color: white;
+}
+
+.subheader__title {
+    font-size: 55px;
+    line-height: 1.5em;
+}
+
+.subheader__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: white;
+    transition-property: all;
+    transition-duration: .3s;
+    box-shadow: 2px 3px 5px 0px gray;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button_empty {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.button_full {
+    background-color: #00897b;
+    border-color: #00897b;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.button_empty:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.button_full:hover{
+    background-color: #08463f;
+}
+
+/* about */
+
+.about{
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+.about .container .row:first-child{
+    margin-bottom: 125px;
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about__text {
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.about__item-title {
+    font-size: 20px;
+    margin: 20px 0px 30px;
+    font-family: 'Open Sans Semibold', 'Times New Roman', sans-serif;
 }
