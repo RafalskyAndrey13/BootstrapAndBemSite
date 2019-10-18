@@ -306,3 +306,153 @@ li.menu__item {
 .price-block:hover {
     box-shadow: 2px 2px 15px 0 gray;
 }
+
+
+.team {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.team .about__item-title {
+    margin-bottom: 0;
+}
+
+.team .icons i{
+    transition: all .5s;
+}
+
+.team .icons i:first-child {
+    color: #f0f1f1;
+}
+
+.team .icons i:nth-child(2){
+    color: #00897b;
+}
+
+.team .icons a:hover i:first-child {
+    color: #3949ab;
+}
+
+.team .icons a:hover i:nth-child(2){
+    color: white;
+}
+
+.team img {
+    margin: 0 auto;
+    max-width: 340px;
+}
+
+.team .member {
+    margin-bottom: 120px;
+}
+
+.services .blog-text {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.services .right > div:first-child {
+    order: 2;
+}
+
+.services .right > div:last-child {
+    order: 1;
+}
+
+.blog-text .about__item-title{
+    color: #00897b;
+}
+
+.blog-text .info {
+    font-size: 17px;
+}
+
+.blog-text span {
+    margin-right: 50px;
+}
+
+.blog-text span i{
+    margin-right: 15px;
+}
+
+.blog-text div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.services .row.right{
+    margin-right: -40px;
+}
+
+.blog {
+    margin-bottom: 125px;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.footer p, .footer h2, .footer i {
+    color: white;
+}
+
+.footer i {
+    font-size: 62px;
+}
+
+.circle {
+    background-color: #3949ab;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+    transition: background-color .3s;
+}
+
+.circle:hover {
+    background-color: #0f1855;
+}
+
+.circle + p {
+    font-size: 20px;
+}
+
+.footer input:not([type='submit']),
+.footer textarea {
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.footer form {
+    margin-top: 70px;
+}
+
+.footer textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer input[type='submit']{
+    width: 80%;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.rights {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
